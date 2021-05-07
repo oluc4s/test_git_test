@@ -34,6 +34,12 @@ struct ContentView: View {
             Text(email).accessibility(identifier: "darkModeText")
             Text(self.senha).accessibility(identifier: "darkModeText")
             Text(self.senha).accessibility(identifier: "darkModeText")
+            Text(self.senha).accessibility(identifier: "darkModeText")
+
+            Text(self.senha).accessibility(identifier: "darkModeText")
+
+            Text(self.senha).accessibility(identifier: "darkModeText")
+
         }
     }
 
