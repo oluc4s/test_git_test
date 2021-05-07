@@ -32,6 +32,8 @@ struct ContentView: View {
             Text(self.enviarFormulario ? "ENVIADO": "NULL").font(.largeTitle).accessibility(identifier: "darkModeText")
             
             Text(email).accessibility(identifier: "darkModeText")
+            Text(email).accessibility(identifier: "darkModeText")
+
             Text(self.senha).accessibility(identifier: "darkModeText")
             
             
