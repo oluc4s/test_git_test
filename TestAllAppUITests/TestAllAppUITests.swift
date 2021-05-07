@@ -25,7 +25,7 @@ class TestAllAppUITests: XCTestCase {
         
         let senha = app.secureTextFields["senhaField"]
         
-        let sendForm = app.staticTexts["sendForm"]
+        let sendForm = app.staticTexts["67ituyit"]
         
         emailAdreess.tap()
         emailAdreess.typeText("mateuslucas.ti@gmail.com")
