@@ -16,3 +16,13 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build
       run: swift build && swift test
+      
+  deploy-dev:
+    runs-on: macos-latest
+    environment:
+      name: dev
+    needs: build
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build
+      run: swift build && swift test && echo Deploy Dev!
