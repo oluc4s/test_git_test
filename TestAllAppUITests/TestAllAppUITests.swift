@@ -34,7 +34,8 @@ class TestAllAppUITests: XCTestCase {
         
         darkModeToggle.tap()
         XCTAssertEqual("ON", darkModeText.label)
-        
+        XCTAssertEqual("ON", darkModeText.label)
+
         sendForm.tap()
 
     }
