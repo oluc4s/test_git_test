@@ -25,7 +25,7 @@ class TestAllAppUITests: XCTestCase {
         
         let senha = app.secureTextFields["senhaField"]
         
-        let sendForm = app.staticTexts["67ituyit"]
+        let sendForm = app.staticTexts["sendForm"]
         
         emailAdreess.tap()
         emailAdreess.typeText("mateuslucas.ti@gmail.com")
@@ -35,7 +35,7 @@ class TestAllAppUITests: XCTestCase {
         darkModeToggle.tap()
         XCTAssertEqual("ON", darkModeText.label)
         XCTAssertEqual("ON", darkModeText.label)
-
+        XCTAssertEqual("ON", darkModeText.label)
         sendForm.tap()
 
     }
